@@ -1,10 +1,4 @@
-Okay, I understand. GitHub's Mermaid renderer can sometimes be stricter or have slightly different parsing interpretations, especially with complex node labels containing special characters like parentheses or hyphens within the standard `[]` node definition.
 
-The most common fix is to enclose the *entire* node label text within double quotes (`" "`) inside the node definition. This explicitly tells the parser where the label begins and ends, preventing it from misinterpreting characters within the label as syntax.
-
-Let's apply this fix to all the potentially problematic diagrams and generate the final professional technical document.
-
----
 
 **Technical Specification: Health Hub Connect Platform**
 
